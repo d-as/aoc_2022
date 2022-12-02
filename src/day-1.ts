@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const lines = fs.readFileSync(path.join(__dirname, '../input', 'input-1.txt')).toString().split('\n');
+const lines = fs.readFileSync(path.join(__dirname, 'input', 'input-1.txt')).toString().split('\n');
 
 const calories: number[][] = []
 let currentTotal: number[] = [];
