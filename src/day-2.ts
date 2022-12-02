@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const inputPath = path.join(__dirname, '../input', 'input-2.txt');
+const inputPath = path.join(__dirname, 'input', 'input-2.txt');
 
 enum Hand {
   ROCK = 1,
